@@ -56,7 +56,7 @@ class Run(Polygon):
             self.run(3)
             turtle.done()
         elif choice == 2:
-            self.run(3)
+            self.run(4)
             turtle.done()
         elif choice == 3:
             self.run(5)
