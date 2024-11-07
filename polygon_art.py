@@ -1,6 +1,11 @@
 import turtle
 import random
 
+
+def get_new_color():
+    return random.randint(0, 255), random.randint(0, 255), random.randint(0, 255)
+
+
 class Polygon:
     def __init__(self, num_sides: int = 3, size: float = 1, orientation: float = 0, location_x=0, location_y=0,
                  color: tuple[int, int, int] = (0, 0, 0), border_size: int = 1):
@@ -101,8 +106,6 @@ class Run(Polygon):
             self.draw_polygon()
             if t == 1:
                 self.draw_smaller()
-
-
 
 
 art = Run()
