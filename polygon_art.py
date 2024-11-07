@@ -108,5 +108,5 @@ class Run(Polygon):
                 self.draw_smaller()
 
 
-art = Run()
-art.run_choice()
+#main
+Run().run_choice()
